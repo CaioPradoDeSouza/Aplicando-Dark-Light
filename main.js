@@ -19,8 +19,13 @@ function defineTemaAtual(theme){
 
     if(theme == "Light"){
         btnDarkMode.innerHTML = darkSvg;
+
+        document.getElementById('title').innerHTML = "Dark Mode"
+        
     }else{
         btnDarkMode.innerHTML = lightSvg;
+
+        document.getElementById('title').innerHTML = "Light Mode"
     }
 }
 
